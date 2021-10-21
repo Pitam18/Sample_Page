@@ -1,0 +1,196 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	font-family: sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+#top
+{
+	width: 100%;
+	height:50px;
+	box-shadow: 1px 1px black;
+	padding: 10px;
+
+}
+
+#right
+{
+	float: left;
+	width: 80%;
+	height:650px;
+	padding: 30px;
+	list-style-type: none;
+}
+#right1
+{
+	width: 20%;
+	height:615px;
+	padding-right: 20px;
+	float: left;
+	margin-top: 35px;
+	list-style-type: none;
+	
+}
+#main 
+{
+box-shadow: 1px 1px black;
+width: 100%;
+height:650px;
+}
+#but
+{
+ width: 30px;
+ height: 30px;
+margin: 2px;
+border-radius: 5px;
+}
+#img
+{
+  width: 60px;	
+  padding-top: 5px;
+
+}
+p
+{
+	font-size: 15px;
+}
+
+#brnd
+{
+	font-size: 25px;
+}
+#clk
+{
+	float: right;
+	margin-right: 10px;
+	background-color: white;
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+}
+#start
+{
+	float: right;
+	font-size: 14px;
+	width: 90px;
+	height: 30px;
+	background-color: deepskyblue;
+	padding: 7px;
+	color: white;
+    border-radius: 10px;
+
+}
+.fake-content {
+    height: 0.8rem;
+    width: 100%;
+    background-color: #ecf0f1;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    margin-bottom: 1rem;
+    border-radius: 0.2rem;
+}
+#card
+{
+	padding: 30px;
+	width: 100%;
+
+}
+#cont 
+{
+width: 105%;
+list-style-type: none;
+}
+#tst 
+{
+  float: left;
+	font-size: 14px;
+	width: 60px;
+	height: 30px;
+	background-color: deepskyblue;
+	padding: 7px;
+	color: white;
+  border-radius: 10px;
+}
+
+.dark-mode
+ {
+  background-color: black;
+  color: white;
+}
+@media only screen and (max-width:500px) 
+{
+	#left
+	{
+		width: 100%;
+
+	}
+	#right1
+	{
+		width: 100%;
+		padding: 10px;
+	}
+	#right
+	{
+		width: 100%;
+		height: 500px;
+	}
+}
+.sidebar {
+  height: 88.2%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+   box-shadow: 1px 1px black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.openbtn {
+  font-size: 15px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  border: none;
+  box-shadow: 1px 1px 1px 1px black;
+
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+#sidebar.active{
+	left: 0;
+}
